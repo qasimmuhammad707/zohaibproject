@@ -1,7 +1,4 @@
 .git
 .github
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+node_modules
 *.log

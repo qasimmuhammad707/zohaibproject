@@ -1,11 +1,11 @@
 # Hello World CI/CD Test App
 
-Simple Flask "Hello, World!" application with Docker and a GitHub Actions deployment pipeline.
+Simple Node.js + Express "Hello World" application with Docker and a GitHub Actions deployment pipeline.
 
 ## Project structure
 
-- `app.py` - Flask web server
-- `requirements.txt` - Python dependencies
+- `server.js` - Express web server
+- `package.json` - Node.js dependencies and scripts
 - `Dockerfile` - Container image build definition
 - `.github/workflows/deploy.yml` - Build -> push to ECR -> deploy to EC2
 
